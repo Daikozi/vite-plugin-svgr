@@ -22,7 +22,7 @@ Then SVG files can be imported as React components, just like [create-react-app]
 import { ReactComponent as Logo } from './logo.svg'
 ```
 
-If you are using TypeScript, there is also a declaration helper for better type inference:
+If you are using TypeScript, there is also a declaration helper to put in the ```src/vite-env.d.ts``` file for better type inference:
 
 ```ts
 /// <reference types="vite-plugin-svgr/client" />
